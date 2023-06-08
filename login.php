@@ -40,8 +40,8 @@
        }
       ?>
       <form action="" method="post">
-      Kasutaja: <input type="text" name="login"><br>
-       Password: <input type="password" name="pass"><br>
+      Kasutaja: <input class="form-outline mb-4" type="text" name="login"><br>
+       Password: <input class="form-outline mb-4" type="password" name="pass"><br>
        <div class="field-group">
          <div>
            <input type="checkbox" name="remember" id="remember">
@@ -54,7 +54,7 @@
          </div>
 
        </div>
-       <input type="submit" value="Logi sisse">
+       <input class="btn btn-success " type="submit" value="Logi sisse">
       </form>
 		</div>
 </section>
