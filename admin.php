@@ -87,7 +87,7 @@
                      echo "<td>".$rida["pere"]."</td>";
                      echo "<td>".$rida["klass"]."</td>"; 
                      echo "<td>".$rida["email"]."</td>";
-                     echo "<td>".'<a class="btn btn-success href="edit.php?muuda='.$rida['id'].'">Muuda</a>'."</td>";
+                     echo "<td>".'<a href="edit.php?muuda='.$rida['id'].'"><button type="button" class="btn btn-success">Muuda</button></a>'."</td>";
                      echo '<td><a class="btn btn-danger" href="'.$_SERVER['PHP_SELF'].'?id='.$rida["id"].'" onclick="return checkDelete()">Kustuta</a></td>';
                      echo "</tr>  ";
                     }
