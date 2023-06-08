@@ -36,6 +36,8 @@ height: 400px; width: 1310px">
     </div>
   </div>
 </div>
+<h1 class="display-4 text-center">Galerii</h1>
+
   <div class="container ps-1 mt-1">
     <div class="row ">
 
