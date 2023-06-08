@@ -39,8 +39,11 @@
     <h1 class="display-4 text-center">Kontakt</h1>
     <!--Section: Contact v.2-->
     <body>
-    <div class="container">
-        <form action="mail.php" method="post">
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
             <div class="form-group">
                 <label for="name">Nimi:</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -56,7 +59,24 @@
             <button type="submit" class="btn btn-primary">Saada</button>
         </form>
     </div>
+    <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Ehitajate tee 3, Uuemõisa, Haapsalu</p>
+                </li>
 
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+372 55980907</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>uuemoisamiil@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+</section>
 <div class="container py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
     <iframe class=" mb-n2" style="height: 275px; width: 100%;"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32947.95492843219!2d23.580038229289677!3d58.927281836330216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed587be65125a7%3A0x97d55827b04c609d!2sHaapsalu%20Kutsehariduskeskus!5e0!3m2!1set!2see!4v1667952668964!5m2!1set!2see"
