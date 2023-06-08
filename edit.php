@@ -44,12 +44,12 @@ if(!empty($_POST['nimi'])){
 <h2>Uuemõisa Miili andmete muutmine</h2>
 <form action="" method="post">
 <table>
-    <tr><td>Nimi: </td><td><input type="text" name="nimi" required value="<?php echo $rida['nimi']; ?>"></td></tr>
-    <tr><td>Perekonnanimi:</td><td> <input type="text" name="pere" required value="<?php echo $rida['pere']; ?>"></td></tr>
-    <tr><td>Võistlusklass: </td><td><input type="number" class="form-control" name="klass" value="1" min="1" max="100" required></td></tr>
-    <tr><td>Email: </td><td><input type="text" name="email" required value="<?php echo $rida['email']; ?>"></td></tr>
-    <tr><td><input type="reset" value="Tühjenda"></td><td><input type="submit" value="MUUDA"></td></tr>
-    <tr><td><input type="submit" value="Tagasi"><a href="index.php"></a></td></tr></input></td></tr>
+    <tr><td>Nimi: </td><td><input type="text" class="form-control" name="nimi" required value="<?php echo $rida['nimi']; ?>"></td></tr>
+    <tr><td>Perekonnanimi:</td><td> <input class="form-control" type="text" name="pere" required value="<?php echo $rida['pere']; ?>"></td></tr>
+    <tr><td>Võistlusklass: </td><td><input type="number" class="form-control" name="klass" value="<?php echo $rida['klass']; ?>" min="1" max="25" required></td></tr>
+    <tr><td>Email: </td><td><input type="text" class="form-control" name="email" required value="<?php echo $rida['email']; ?>"></td></tr>
+    <tr><td><input class="btn btn-danger" type="reset" value="Tühjenda"></td><td><input class="btn btn-success" type="submit" value="Muuda"></td></tr>
+    <tr><td><input class="btn btn-primary" type="submit" value="Tagasi"><a href="index.php"></a></td></tr></input></td></tr>
 </table>
 </form>
 <?php
