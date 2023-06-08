@@ -63,6 +63,7 @@ if ($nimi && $pere && $klass && $email) {
             </div>
             <button type="submit" class="btn btn-primary">Lisa uus võistleja</button>
         </form>
+        <a href="admin.php"><button type="button" class="btn btn-success">Tagasi</button></a>
 </div>
 </body>
 </html>
